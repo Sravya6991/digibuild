@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="styles/login.css"/>
+    <link rel="stylesheet" href="styles/media.css"/>
+    <title>Digi Builder</title>
+</head>
+<body>
+    <header class="w-100">
+        <nav class="p-3 d-flex justify-content-between align-items-center">
+            <h4 class="ms-5">Comapny Logo</h4>
+
+            <ul class="header-ul d-flex justify-content-between">
+                <li><a href="/login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSepGCf9E8H0BOh_d6X9kjNztAU2lW8V9B-G6JlwTQU6L_4s1w/viewform?usp=sf_link" target="_blank">Google Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form-box">
+        <form class="form">
+            <h2 class="form-title">Register</h2>
+
+            <div class="mb-4">
+                <label for="username" class="form-label">User Name</label>
+                <input class="form-control" type="'text" id="username" name="username" placeholder="username" required/>
+            </div>
+            <br />
+            
+            <div class="mb-4">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" type="email" id="email" name="email" placeholder="email" required/>
+            </div>
+            <br />
+            
+            <div class="mb-4">
+                <label for="password" class="form-label">Password</label>
+                <input class="form-control" type="password" id="password" name="password" placeholder="password" required/>
+            </div>
+            <br />
+            
+            <div class="mb-4">
+                <label for="contact" class="form-label">Contact</label>
+                <input class="form-control" type="password" id="contact" name="contact" placeholder="contact number" required/>
+            </div>
+            <br />
+
+            <div class="mb-4">
+                <label for="location" class="form-label">Location</label>
+                <input class="form-control" type="text" id="location" name="location" placeholder="Enter your location" required/>
+            </div>
+            <button class="btn">Register</button>
+        </form>
+    </div>
+
+    <footer class="bg-dark text-light text-center">
+        <p>&copy; Copyright: <a href="/" >COMPANY.IN</a></p>
+        <p>Total Visitors: - </p>
+    </footer>
+</body>
+</html>

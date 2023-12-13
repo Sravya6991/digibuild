@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #FAD201;
+    height: 4em;
+}
+
+.header-ul {
+    list-style: none;
+    margin-right: 1.2em;
+}
+
+.header-ul li {
+    font-size: 1.1eem;
+    margin-right: 2em;
+    font-weight: 500;
+}
+
+.header-ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.form-box {
+    width: 40%;
+    min-height: 24em;
+    /* position: absolute;
+    left: 30%; */
+    padding: 20px;
+    margin: 2em auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+.form {
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.form-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    color: rgb(49, 116, 170);
+    font-size: 18px;
+    margin-bottom: rem;
+}
+
+.btn {
+    text-align: center;
+    /* float: right; */
+    background-color: #555;
+    padding: 10px 15px;
+    color: white;
+    float: right;   
+}
+
+.btn:hover {
+    background-color: #2f2f34;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 5em;
+    padding: 10px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #FAD201;
+    cursor: pointer;
+}
+
+.KHCwJ.M0FGwd {
+    max-height: 25vw;
+    max-width: 100vw;
+    height: 192.5px;
+    width: 770px;
+}
+
+
+.KHCwJ {
+    background-image: url(https://lh7-us.googleusercontent.com/DjHhaXNl7vUStGjqmp4PtIR9K-aHDg3WTvsiIljTOjooi1ewXc0fgOVc2RO_swJCTRjTZzZJzbe3R5HVcSPvfQoWAVqzsPru1pga2IQamfxTIXR28SkCRWWUj8dD-KFgnvRA36cT8iCBs07geEgtvqg1h3zeGQ);
+    background-size: cover;
+    background-position: center;
+}
+.dYYAhb {
+    border: 1px solid rgb(218,220,224);
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+div {
+    display: block;
+}
+.gw8tlb {
+    --gm3-dialog-refactored-z-index: 1003;
+    --gm3-dialog-refactored-container-surface-tint-layer-color: #fff;
+}
+.nDyC9b {
+    --gm3-dialog-refactored-z-index: auto!important;
+}
